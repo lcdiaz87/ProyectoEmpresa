@@ -19,3 +19,15 @@ class Empleado():
 
     def getNombreApellido(self):
         return self.nombre %" "% self.apellidos
+
+    def getEdad(self):
+        return self.edad
+
+    def getEmail(self):
+        return self.email
+
+    def getDireccion(self):
+        return self.direccion
+
+    def getSalarioAnual(self):
+        return (self.salario*12)

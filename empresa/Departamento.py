@@ -16,3 +16,12 @@ class Departamento():
         for empActual in self.listaEmpleados:
             salarioTotal+=empActual.getSalario()
         return salarioTotal
+
+    def getNombreDpto(self):
+        return self.nombreDpto
+
+    def getSalarioTotalAnual(self):
+        salarioTotalAnual=0
+        for empActual in self.listaEmpleados:
+            salarioTotalAnual+=empActual.getSalarioAnual()
+        return salarioTotalAnual
