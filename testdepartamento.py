@@ -10,7 +10,15 @@ __author__ = 'aulas'
 
 
 class TestDepartamento(TestCase):
+    """Test del ProyectoEmpresa
+
+    Clase para testear el proyecto, donde podemos ver dos testeos que se definiran a continuacion
+    """
     def test_get_salario_total(self):
+        """Test Salario Total
+
+        Realiza un test para comprobar si el metodo get_salario_total funciona bien, con la ayuda del mock
+        """
         # creacion de empleados por "mockito-python"
         emp1 = mock(Empleado)
         emp2 = mock(Empleado)
@@ -37,6 +45,10 @@ class TestDepartamento(TestCase):
         self.assertEqual(res, 1500)
 
     def test_get_salario_total_anual(self):
+        """Test Salario Total Anual
+
+        Realiza un test para comprobar si el metodo get_salario_total_anual funciona bien, con la ayuda del mock
+        """
         # creacion de empleados por "mockito-python"
         emp1 = mock(Empleado)
         emp2 = mock(Empleado)
