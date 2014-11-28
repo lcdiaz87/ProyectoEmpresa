@@ -11,25 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-.. autoclass:: Departamento.Departamento
-   :members:
-   :undoc-members:
-   :special-members:
-
-.. autoclass:: Empleado.Empleado
-   :members:
-   :undoc-members:
-   :special-members:
-
-.. autoclass:: Empresa.Empresa
-   :members:
-   :undoc-members:
-   :special-members:
-
-.. autoclass:: testdepartamento.TestDepartamento
-   :members:
-   :undoc-members:
-   :special-members:
+   empresa
+   departamento
+   empleado
+   testdepartamento
 
 Indices and tables
 ==================

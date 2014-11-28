@@ -1,9 +1,9 @@
-.. proyectoempresa documentation master file, created by
+.. empresa documentation master file, created by
    sphinx-quickstart on Sat Nov 08 18:02:36 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to proyectoempresa's documentation!
+Welcome to empresa's documentation!
 ===========================================
 
 Contents:
@@ -11,15 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   empresa
-   departamento
-   empleado
-   testdepartamento
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+.. autoclass:: Empresa.Empresa
+   :members:
+   :undoc-members:
+   :special-members:

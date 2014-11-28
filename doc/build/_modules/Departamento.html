@@ -47,12 +47,12 @@
 <span class="n">__author__</span> <span class="o">=</span> <span class="s">&#39;aulas&#39;</span>
 
 
-<div class="viewcode-block" id="Departamento"><a class="viewcode-back" href="../index.html#Departamento.Departamento">[docs]</a><span class="k">class</span> <span class="nc">Departamento</span><span class="p">():</span>
+<div class="viewcode-block" id="Departamento"><a class="viewcode-back" href="../departamento.html#Departamento.Departamento">[docs]</a><span class="k">class</span> <span class="nc">Departamento</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;Departamento</span>
 
 <span class="sd">    Departamento de la empresa, donde tendra asignado unos empleados</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="Departamento.__init__"><a class="viewcode-back" href="../index.html#Departamento.Departamento.__init__">[docs]</a>    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nombre_dpto</span><span class="p">,</span> <span class="n">id_dpto</span><span class="p">):</span>
+<div class="viewcode-block" id="Departamento.__init__"><a class="viewcode-back" href="../departamento.html#Departamento.Departamento.__init__">[docs]</a>    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nombre_dpto</span><span class="p">,</span> <span class="n">id_dpto</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Constructor</span>
 
 <span class="sd">        Constructor de la clase Departamento</span>
@@ -66,7 +66,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">id_dpto</span> <span class="o">=</span> <span class="n">id_dpto</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">lista_empleados</span> <span class="o">=</span> <span class="p">[]</span>
 </div>
-<div class="viewcode-block" id="Departamento.anadir_empleado"><a class="viewcode-back" href="../index.html#Departamento.Departamento.anadir_empleado">[docs]</a>    <span class="k">def</span> <span class="nf">anadir_empleado</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">emp</span><span class="p">):</span>
+<div class="viewcode-block" id="Departamento.anadir_empleado"><a class="viewcode-back" href="../departamento.html#Departamento.Departamento.anadir_empleado">[docs]</a>    <span class="k">def</span> <span class="nf">anadir_empleado</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">emp</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;anadir empleado</span>
 
 <span class="sd">        Asigna un empleado a este departamento</span>
@@ -76,7 +76,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">lista_empleados</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">emp</span><span class="p">)</span>
 </div>
-<div class="viewcode-block" id="Departamento.get_salario_total"><a class="viewcode-back" href="../index.html#Departamento.Departamento.get_salario_total">[docs]</a>    <span class="k">def</span> <span class="nf">get_salario_total</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Departamento.get_salario_total"><a class="viewcode-back" href="../departamento.html#Departamento.Departamento.get_salario_total">[docs]</a>    <span class="k">def</span> <span class="nf">get_salario_total</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Salario total</span>
 
 <span class="sd">        Devuelve la suma de salario de todos los empleados de este departamento</span>
@@ -89,7 +89,7 @@
             <span class="n">salario_total</span> <span class="o">+=</span> <span class="n">emp_actual</span><span class="o">.</span><span class="n">get_salario</span><span class="p">()</span>
         <span class="k">return</span> <span class="n">salario_total</span>
 </div>
-<div class="viewcode-block" id="Departamento.get_nombre_dpto"><a class="viewcode-back" href="../index.html#Departamento.Departamento.get_nombre_dpto">[docs]</a>    <span class="k">def</span> <span class="nf">get_nombre_dpto</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Departamento.get_nombre_dpto"><a class="viewcode-back" href="../departamento.html#Departamento.Departamento.get_nombre_dpto">[docs]</a>    <span class="k">def</span> <span class="nf">get_nombre_dpto</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Nombre del departamento</span>
 
 <span class="sd">        Devuelve el nombre del departamento</span>
@@ -99,7 +99,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">nombre_dpto</span>
 </div>
-<div class="viewcode-block" id="Departamento.get_salario_total_anual"><a class="viewcode-back" href="../index.html#Departamento.Departamento.get_salario_total_anual">[docs]</a>    <span class="k">def</span> <span class="nf">get_salario_total_anual</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Departamento.get_salario_total_anual"><a class="viewcode-back" href="../departamento.html#Departamento.Departamento.get_salario_total_anual">[docs]</a>    <span class="k">def</span> <span class="nf">get_salario_total_anual</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Salario total anual</span>
 
 <span class="sd">        Devuelve la suma de salario anual de todos los empleados de este departamento</span>

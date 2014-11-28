@@ -47,12 +47,12 @@
 <span class="n">__author__</span> <span class="o">=</span> <span class="s">&#39;aulas&#39;</span>
 
 
-<div class="viewcode-block" id="Empleado"><a class="viewcode-back" href="../index.html#Empleado.Empleado">[docs]</a><span class="k">class</span> <span class="nc">Empleado</span><span class="p">():</span>
+<div class="viewcode-block" id="Empleado"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado">[docs]</a><span class="k">class</span> <span class="nc">Empleado</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;Empleado</span>
 
 <span class="sd">    Empleado que puede ser asignado a un departamento de la empresa</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="Empleado.__init__"><a class="viewcode-back" href="../index.html#Empleado.Empleado.__init__">[docs]</a>    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nombre</span><span class="p">,</span> <span class="n">apellidos</span><span class="p">,</span> <span class="n">dni</span><span class="p">,</span> <span class="n">direccion</span><span class="p">,</span> <span class="n">edad</span><span class="p">,</span> <span class="n">email</span><span class="p">,</span> <span class="n">salario</span><span class="p">):</span>
+<div class="viewcode-block" id="Empleado.__init__"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.__init__">[docs]</a>    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nombre</span><span class="p">,</span> <span class="n">apellidos</span><span class="p">,</span> <span class="n">dni</span><span class="p">,</span> <span class="n">direccion</span><span class="p">,</span> <span class="n">edad</span><span class="p">,</span> <span class="n">email</span><span class="p">,</span> <span class="n">salario</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Constructor</span>
 
 <span class="sd">        Constructor de la clase empleado</span>
@@ -80,7 +80,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">email</span> <span class="o">=</span> <span class="n">email</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">salario</span> <span class="o">=</span> <span class="n">salario</span>
 </div>
-<div class="viewcode-block" id="Empleado.get_salario"><a class="viewcode-back" href="../index.html#Empleado.Empleado.get_salario">[docs]</a>    <span class="k">def</span> <span class="nf">get_salario</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Empleado.get_salario"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_salario">[docs]</a>    <span class="k">def</span> <span class="nf">get_salario</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;salario</span>
 
 <span class="sd">        devolver salario del empleado</span>
@@ -90,7 +90,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">salario</span>
 </div>
-<div class="viewcode-block" id="Empleado.get_dni"><a class="viewcode-back" href="../index.html#Empleado.Empleado.get_dni">[docs]</a>    <span class="k">def</span> <span class="nf">get_dni</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Empleado.get_dni"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_dni">[docs]</a>    <span class="k">def</span> <span class="nf">get_dni</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;D.N.I.</span>
 
 <span class="sd">        devolver DNI del empleado</span>
@@ -100,7 +100,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">dni</span>
 </div>
-<div class="viewcode-block" id="Empleado.get_nombre_apellido"><a class="viewcode-back" href="../index.html#Empleado.Empleado.get_nombre_apellido">[docs]</a>    <span class="k">def</span> <span class="nf">get_nombre_apellido</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Empleado.get_nombre_apellido"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_nombre_apellido">[docs]</a>    <span class="k">def</span> <span class="nf">get_nombre_apellido</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;apellidos</span>
 
 <span class="sd">        devolver apellidos del empleado</span>
@@ -110,7 +110,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">nombre</span> <span class="o">%</span> <span class="s">&quot; &quot;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">apellidos</span>
 </div>
-<div class="viewcode-block" id="Empleado.get_edad"><a class="viewcode-back" href="../index.html#Empleado.Empleado.get_edad">[docs]</a>    <span class="k">def</span> <span class="nf">get_edad</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Empleado.get_edad"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_edad">[docs]</a>    <span class="k">def</span> <span class="nf">get_edad</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;edad</span>
 
 <span class="sd">        devolver edad del empleado</span>
@@ -120,7 +120,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">edad</span>
 </div>
-<div class="viewcode-block" id="Empleado.get_email"><a class="viewcode-back" href="../index.html#Empleado.Empleado.get_email">[docs]</a>    <span class="k">def</span> <span class="nf">get_email</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Empleado.get_email"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_email">[docs]</a>    <span class="k">def</span> <span class="nf">get_email</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;email</span>
 
 <span class="sd">        devolver email del empleado</span>
@@ -130,7 +130,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">email</span>
 </div>
-<div class="viewcode-block" id="Empleado.get_direccion"><a class="viewcode-back" href="../index.html#Empleado.Empleado.get_direccion">[docs]</a>    <span class="k">def</span> <span class="nf">get_direccion</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Empleado.get_direccion"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_direccion">[docs]</a>    <span class="k">def</span> <span class="nf">get_direccion</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;direccion</span>
 
 <span class="sd">        devolver direccion del empleado</span>
@@ -140,7 +140,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">direccion</span>
 </div>
-<div class="viewcode-block" id="Empleado.get_salario_anual"><a class="viewcode-back" href="../index.html#Empleado.Empleado.get_salario_anual">[docs]</a>    <span class="k">def</span> <span class="nf">get_salario_anual</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Empleado.get_salario_anual"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_salario_anual">[docs]</a>    <span class="k">def</span> <span class="nf">get_salario_anual</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;salario anual</span>
 
 <span class="sd">        devolver salario anual del empleado</span>
